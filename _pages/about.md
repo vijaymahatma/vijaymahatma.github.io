@@ -1,28 +1,27 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+I'm a scientist working at the University of Cambridge. I graduated with a first-class MSci degree in Astrophysics at Royal Holloway, University of London, before completing an MSc by Research in radio astronomy at the University of Hertfordshire. I then continued at Hertfordshire with a PhD in radio astronomy, where I studied the properties of radio galaxies using a variety of modern telescopes, creating some of the first systematically-selected samples of rare populations of radio galaxies. After my PhD, I was a post-doctoral researcher at the Thueringer Landessternwarte in Germany, where I continued my research. In 2023 I joined the Cavendish Laboratory at the University of Cambridge, continuing my work on radio galaxies and also working on the software development of the world's largest scientific ecosystem in the form of the next-generation telescope: the Square Kilometre Array.  
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+I'm a radio astronomer -- I use radio telescopes to peer through the Universe through many lenses. Specifically, my research revolves around understanding radio-loud galaxies. The radio waves from these types of galaxies far outshine the light coming from all the stars in the galaxy combined. Connected with this scientific research, I most heavily work on software related to processing all these radio signals into maps that tell us about the physics of these objects: radio astronomy is itself a big data problem and innovative software is required in the coming years to help us understand even more about the cosmos. My other academic interests are on the nature of cosmic magnetism, cosmology of the early Universe, and on high energy physics in general. 
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+If you'd like to know more, please contact me through the links on the left.
 
-A data-driven personal website
+Research: radio galaxies shaping our Universe
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+The most massive galaxies in the Universe contain active super-massive black holes -- through accretion of hot plasma including magnetic fields, they launch high-powered beams of charged particles that often escape the galaxy. The combination of charged particles and magnetic fields in these beams or jets releases synchrotron radiation, and we see most of this at radio wavelengths. The radio sky is littered with these so-called radio galaxies, some galaxies having very large and powerful jets and some having small and weak jets, but nevertheless, there is enough power in these sytems to disrupt the normal processes in galaxies such as star-formation. 
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
+I undertake a variety of projects to understand radio galaxies:
+- I am principle investigator of a large programme with the Jansky Very Large Array (JVLA) to image and understand the physics of the brightest radio galaxies in the northern hemisphere. This will produce the highest dynamic range maps at 1.5 GHz and 6 GHz of the famous 3CRR sample. Using the new maps with the expected newly detected features such as filaments and faint hotspots, we will re-ignite models for their evolution, to truly understand their role in shaping galaxy evolution. These studies will be complimented by similar maps made at different wavelengths, from 144 MHz to infra-red and X-rays. 
+- Using the Low Frequency Array (LOFAR), a highly sensitive telescope operating at low radio frequencies, I map the faint components of bright radio galaxies to understand the physics of the plasma in the low energy regime. In particular, I am interested in X-ray ghosts, which show bright X-ray emission coming from the Cosmic Microwave Background being up-scattered to X-rays from the low energy electrons in the lobes of radio galaxies. This has meant, historically, that we have never seen the radio emission from this plasma because it has become extremely faint. I have now detected this missing radio plasma using high dynamic range images from LOFAR of a handful of objects, shedding light on the interaction between radio galaxies and cosmological structure formation. I plan to undertake a large survey to find all of these objects. 
 - [Plotly](https://plotly.com/javascript/) for plotting
 
-Getting started
+Software: processing data from SKA and LOFAR
 ======
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
 1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
@@ -31,7 +30,7 @@ Getting started
 1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
 1. Check status by going to the repository settings, in the "GitHub pages" section
 
-Site-wide configuration
+Other
 ------
 The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
 
